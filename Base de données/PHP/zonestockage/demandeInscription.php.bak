@@ -1,0 +1,33 @@
+<?php
+include_once("gestionBase.php");
+session_start();
+
+
+	try{
+		$raisonSociale=$_REQUEST['raisonSociale'];
+		$login=$_REQUEST['login'];
+		$password=$_REQUEST['password'];
+		$type=$_REQUEST['type'];
+		if(!empty($raisonSociale) && !empty($login) && !empty($password) && !empty($type)){
+		
+		
+			$connexion=connexionPDO();
+	
+			
+			$req="INSERT INTO `utilisateur` (`raisonSociale`, `login`, `password`, `type`) VALUES ( $raisonSociale, $login, $password, $type)";
+			$prep=$connexion->prepare($req);
+			$prep->execute();
+			
+			if(!empty($prep)){
+				echo ("InscriptionOk");
+			}else{
+				echo ("ErreurInsc");
+			}	
+		}else{
+			echo ("Erreur demande inscription !");
+		}
+	}catch(PDOExeption $e){
+		print "Erreur de connexion PDO";
+		die();
+	}
+?>

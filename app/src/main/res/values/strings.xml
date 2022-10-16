@@ -1,0 +1,7 @@
+
+<resources>
+    <string name="app_name">DropdownMenu</string>
+    <string name="select">selectionner le type</string>
+    <string name="select_quantite">selectionner la quantite</string>
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_margin="1dp"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <EditText
+                android:id="@+id/textInsertProduit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:hint="  Produit ...  "
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="1dp"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/buttonConsultation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:textSize="10dp"
+                android:text="Valider"
+                android:background="@drawable/border_button"
+                android:elevation="5dp"/>
+
+            <Button
+                android:id="@+id/buttonEffacer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Effacer Tout   "
+                android:gravity="center"
+                android:textSize="10dp"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="1dp"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/bleuOpacity_22">
+
+        <LinearLayout
+            android:id="@+id/zone_inflate_consultation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bouttonAppBarre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        app:hideOnScroll="true"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:menu="@menu/boutton_menu"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="15dp"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/boutton_item_background"
+            app:itemTextColor="@color/boutton_item_background"
+            />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ajouterMedicament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:background="@color/white"
+        app:layout_anchor="@id/bouttonAppBarre"
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

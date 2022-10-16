@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="680dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="50dp">
+    <ImageView
+        android:id="@+id/logoCompte"
+        android:layout_width="197dp"
+        android:layout_height="153dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_compte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe"
+            android:layout_marginLeft="-260dp"
+            android:layout_marginTop="400dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matricule"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="220dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="300dp" />
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type d'utilisateur"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="500dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="680dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <TextView
+            android:id="@+id/matricule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matricule"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="220dp"
+            />
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="300dp"
+            />
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="Mot de passe"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="400dp"
+            />
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type d'utilisateur"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="500dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bouttonAppBarre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        app:hideOnScroll="true"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:menu="@menu/boutton_menu"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="15dp"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/boutton_item_background"
+            app:itemTextColor="@color/boutton_item_background"
+            />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ajouterMedicament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:background="@color/white"
+        app:layout_anchor="@id/bouttonAppBarre"
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

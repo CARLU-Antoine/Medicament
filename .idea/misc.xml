@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/code/Android/Android-main/app/src/main/res/layout/connexion.xml" value="0.3484375" />
+        <entry key="..\:/code/Android/Android-main/app/src/main/res/layout/consultation_inflater.xml" value="0.3484375" />
+        <entry key="..\:/code/Android/Android-main/app/src/main/res/layout/list_item.xml" value="0.16945288753799392" />
+        <entry key="..\:/code/Android/Android-main/app/src/main/res/layout/parametre.xml" value="0.3484375" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/accueil_connexion.xml" value="0.1762917933130699" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/connexion.xml" value="0.1762917933130699" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/consultation_inflater.xml" value="0.22" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/consultation_reservation.xml" value="0.2" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/creation_medicament.xml" value="0.1762917933130699" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/inscription.xml" value="0.33" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/list_item.xml" value="0.3625" />
+        <entry key="..\:/code/Android/PPE4-master - Copie/app/src/main/res/layout/menu_utilisateur.xml" value="0.25" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/border.xml" value="0.3635" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/border_button.xml" value="0.3635" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/custom_account_icon.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/custom_imput.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/custom_lock_icon.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/gradient_background.xml" value="0.3635" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_compte.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_compte_focused.xml" value="0.289" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_exit.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_help.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3635" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_libelle.xml" value="0.183" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_lock_focused.xml" value="0.289" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_menu.xml" value="0.2785" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_quantite.xml" value="0.212" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/drawable/ic_round_medication_24.xml" value="0.244" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/accueil_connexion.xml" value="0.5" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/connexion.xml" value="0.5" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/creation_medicament.xml" value="0.25" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/inscription.xml" value="0.25" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/list_item.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/menu_utilisateur.xml" value="0.25" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/layout/parametre.xml" value="0.2909604519774011" />
+        <entry key="..\:/vignard/PPE4-master - Copie/app/src/main/res/menu/boutton_menu.xml" value="0.33" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/accueil_connexion.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/connexion.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/consultation_inflater.xml" value="0.33" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/consultation_reservation.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/demande_reservation.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/menu_administrateur.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/menu_utilisateur.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/modification_reservation.xml" value="0.3625" />
+        <entry key="..\:/vignard/PPE4-master/app/src/main/res/layout/suppression_reservation.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
